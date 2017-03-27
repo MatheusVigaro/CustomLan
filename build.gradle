@@ -13,7 +13,7 @@ apply plugin: 'net.minecraftforge.gradle.forge'
 
 version = "1.0"
 group= "tk.vigaro.customlan" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = "customlan"
+archivesBaseName = "cusotmlan"
 
 sourceCompatibility = targetCompatibility = "1.6" // Need this here so eclipse task generates correctly.
 compileJava {
@@ -21,7 +21,7 @@ compileJava {
 }
 
 minecraft {
-    version = "1.10.2-12.18.3.2221"
+    version = "1.10.2-12.18.3.2234"
     runDir = "run"
     
     // the mappings can be changed at any time, and must be in the following format.
